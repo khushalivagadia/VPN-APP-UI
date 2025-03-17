@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CA523702D86DAD200039A3B /* VPN_APP_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA5236F2D86DAD200039A3B /* VPN_APP_UITests.swift */; };
+		6CB9F7522D8803E900AC3260 /* ConnectingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB9F7482D8803E900AC3260 /* ConnectingViewController.swift */; };
+		6CB9F7542D8803E900AC3260 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB9F74D2D8803E900AC3260 /* SuccessViewController.swift */; };
+		6CB9F7552D8803E900AC3260 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB9F74E2D8803E900AC3260 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C9EC2A12D84A5C600AA5704 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C9EC2822D84A5C500AA5704 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C9EC2892D84A5C500AA5704;
+			remoteInfo = "VPN APP UI";
+		};
+		6C9EC2AB2D84A5C600AA5704 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C9EC2822D84A5C500AA5704 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C9EC2892D84A5C500AA5704;
+			remoteInfo = "VPN APP UI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C9EC28A2D84A5C500AA5704 /* VPN APP UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VPN APP UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C9EC2A02D84A5C600AA5704 /* VPN APP UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VPN APP UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C9EC2AA2D84A5C600AA5704 /* VPN APP UIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VPN APP UIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CA5236F2D86DAD200039A3B /* VPN_APP_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPN_APP_UITests.swift; sourceTree = "<group>"; };
+		6CB9F7482D8803E900AC3260 /* ConnectingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectingViewController.swift; sourceTree = "<group>"; };
+		6CB9F74D2D8803E900AC3260 /* SuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
+		6CB9F74E2D8803E900AC3260 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		6C9EC2B22D84A5C600AA5704 /* Exceptions for "VPN APP UI" folder in "VPN APP UI" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 6C9EC2892D84A5C500AA5704 /* VPN APP UI */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		6C9EC28C2D84A5C500AA5704 /* VPN APP UI */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6C9EC2B22D84A5C600AA5704 /* Exceptions for "VPN APP UI" folder in "VPN APP UI" target */,
+			);
+			path = "VPN APP UI";
+			sourceTree = "<group>";
+		};
+		6C9EC2A32D84A5C600AA5704 /* VPN APP UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "VPN APP UITests";
+			sourceTree = "<group>";
+		};
+		6C9EC2AD2D84A5C600AA5704 /* VPN APP UIUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "VPN APP UIUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C9EC2872D84A5C500AA5704 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C9EC29D2D84A5C600AA5704 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C9EC2A72D84A5C600AA5704 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C9EC2812D84A5C500AA5704 = {
+			isa = PBXGroup;
+			children = (
+				6CA5236F2D86DAD200039A3B /* VPN_APP_UITests.swift */,
+				6C9EC28C2D84A5C500AA5704 /* VPN APP UI */,
+				6CB9F74E2D8803E900AC3260 /* ViewController.swift */,
+				6CB9F7482D8803E900AC3260 /* ConnectingViewController.swift */,
+				6CB9F74D2D8803E900AC3260 /* SuccessViewController.swift */,
+				6C9EC2A32D84A5C600AA5704 /* VPN APP UITests */,
+				6C9EC2AD2D84A5C600AA5704 /* VPN APP UIUITests */,
+				6C9EC28B2D84A5C500AA5704 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C9EC28B2D84A5C500AA5704 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C9EC28A2D84A5C500AA5704 /* VPN APP UI.app */,
+				6C9EC2A02D84A5C600AA5704 /* VPN APP UITests.xctest */,
+				6C9EC2AA2D84A5C600AA5704 /* VPN APP UIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C9EC2892D84A5C500AA5704 /* VPN APP UI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C9EC2B32D84A5C600AA5704 /* Build configuration list for PBXNativeTarget "VPN APP UI" */;
+			buildPhases = (
+				6C9EC2862D84A5C500AA5704 /* Sources */,
+				6C9EC2872D84A5C500AA5704 /* Frameworks */,
+				6C9EC2882D84A5C500AA5704 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				6C9EC28C2D84A5C500AA5704 /* VPN APP UI */,
+			);
+			name = "VPN APP UI";
+			packageProductDependencies = (
+			);
+			productName = "VPN APP UI";
+			productReference = 6C9EC28A2D84A5C500AA5704 /* VPN APP UI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C9EC29F2D84A5C600AA5704 /* VPN APP UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C9EC2B82D84A5C600AA5704 /* Build configuration list for PBXNativeTarget "VPN APP UITests" */;
+			buildPhases = (
+				6C9EC29C2D84A5C600AA5704 /* Sources */,
+				6C9EC29D2D84A5C600AA5704 /* Frameworks */,
+				6C9EC29E2D84A5C600AA5704 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C9EC2A22D84A5C600AA5704 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6C9EC2A32D84A5C600AA5704 /* VPN APP UITests */,
+			);
+			name = "VPN APP UITests";
+			packageProductDependencies = (
+			);
+			productName = "VPN APP UITests";
+			productReference = 6C9EC2A02D84A5C600AA5704 /* VPN APP UITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6C9EC2A92D84A5C600AA5704 /* VPN APP UIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C9EC2BB2D84A5C600AA5704 /* Build configuration list for PBXNativeTarget "VPN APP UIUITests" */;
+			buildPhases = (
+				6C9EC2A62D84A5C600AA5704 /* Sources */,
+				6C9EC2A72D84A5C600AA5704 /* Frameworks */,
+				6C9EC2A82D84A5C600AA5704 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C9EC2AC2D84A5C600AA5704 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6C9EC2AD2D84A5C600AA5704 /* VPN APP UIUITests */,
+			);
+			name = "VPN APP UIUITests";
+			packageProductDependencies = (
+			);
+			productName = "VPN APP UIUITests";
+			productReference = 6C9EC2AA2D84A5C600AA5704 /* VPN APP UIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C9EC2822D84A5C500AA5704 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					6C9EC2892D84A5C500AA5704 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					6C9EC29F2D84A5C600AA5704 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 6C9EC2892D84A5C500AA5704;
+					};
+					6C9EC2A92D84A5C600AA5704 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 6C9EC2892D84A5C500AA5704;
+					};
+				};
+			};
+			buildConfigurationList = 6C9EC2852D84A5C500AA5704 /* Build configuration list for PBXProject "VPN APP UI" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C9EC2812D84A5C500AA5704;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6C9EC28B2D84A5C500AA5704 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C9EC2892D84A5C500AA5704 /* VPN APP UI */,
+				6C9EC29F2D84A5C600AA5704 /* VPN APP UITests */,
+				6C9EC2A92D84A5C600AA5704 /* VPN APP UIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C9EC2882D84A5C500AA5704 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C9EC29E2D84A5C600AA5704 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C9EC2A82D84A5C600AA5704 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C9EC2862D84A5C500AA5704 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CB9F7522D8803E900AC3260 /* ConnectingViewController.swift in Sources */,
+				6CB9F7542D8803E900AC3260 /* SuccessViewController.swift in Sources */,
+				6CB9F7552D8803E900AC3260 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C9EC29C2D84A5C600AA5704 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA523702D86DAD200039A3B /* VPN_APP_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C9EC2A62D84A5C600AA5704 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C9EC2A22D84A5C600AA5704 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C9EC2892D84A5C500AA5704 /* VPN APP UI */;
+			targetProxy = 6C9EC2A12D84A5C600AA5704 /* PBXContainerItemProxy */;
+		};
+		6C9EC2AC2D84A5C600AA5704 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C9EC2892D84A5C500AA5704 /* VPN APP UI */;
+			targetProxy = 6C9EC2AB2D84A5C600AA5704 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6C9EC2B42D84A5C600AA5704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "VPN APP UI/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.khushali.VPN-APP-UI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C9EC2B52D84A5C600AA5704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "VPN APP UI/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.khushali.VPN-APP-UI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6C9EC2B62D84A5C600AA5704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6C9EC2B72D84A5C600AA5704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C9EC2B92D84A5C600AA5704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.khushali.VPN-APP-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VPN APP UI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VPN APP UI";
+			};
+			name = Debug;
+		};
+		6C9EC2BA2D84A5C600AA5704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.khushali.VPN-APP-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VPN APP UI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VPN APP UI";
+			};
+			name = Release;
+		};
+		6C9EC2BC2D84A5C600AA5704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.khushali.VPN-APP-UIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "VPN APP UI";
+			};
+			name = Debug;
+		};
+		6C9EC2BD2D84A5C600AA5704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.khushali.VPN-APP-UIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "VPN APP UI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C9EC2852D84A5C500AA5704 /* Build configuration list for PBXProject "VPN APP UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C9EC2B62D84A5C600AA5704 /* Debug */,
+				6C9EC2B72D84A5C600AA5704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C9EC2B32D84A5C600AA5704 /* Build configuration list for PBXNativeTarget "VPN APP UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C9EC2B42D84A5C600AA5704 /* Debug */,
+				6C9EC2B52D84A5C600AA5704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C9EC2B82D84A5C600AA5704 /* Build configuration list for PBXNativeTarget "VPN APP UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C9EC2B92D84A5C600AA5704 /* Debug */,
+				6C9EC2BA2D84A5C600AA5704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C9EC2BB2D84A5C600AA5704 /* Build configuration list for PBXNativeTarget "VPN APP UIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C9EC2BC2D84A5C600AA5704 /* Debug */,
+				6C9EC2BD2D84A5C600AA5704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C9EC2822D84A5C500AA5704 /* Project object */;
+}
